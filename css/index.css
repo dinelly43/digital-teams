@@ -113,6 +113,15 @@ header .busca input:focus{
     border-radius: 10px;
 }
 
+#teams ul li.noTeams{
+    width: 100%;   
+}
+
+#teams ul li.noTeams h4{
+    width: 100%;
+    justify-content: center;
+}
+
 #teams ul li h4{
     display: flex;
     justify-content: space-between;
@@ -194,6 +203,13 @@ header .busca input:focus{
     position: fixed;
     top: 0;
     left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#overlay.show{
+    opacity: 1;
+    visibility: visible;
 }
 
 form{
